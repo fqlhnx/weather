@@ -17,6 +17,22 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    
+    
+    //五天后如果有问题 直接退出
+    NSDateFormatter *formater = [[ NSDateFormatter alloc] init];
+    [formater setDateFormat:@"yyyy-MM-dd"];
+    
+    NSString *string = [formater stringFromDate:[NSDate date]];
+    if ([string isEqualToString:@"2014-11-21"]) {
+        
+        exit(0);
+
+    }
+    
+    
+    
     return YES;
 }
 

@@ -20,6 +20,15 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="weather_bg.png" translatesAutoresizingMaskIntoConstraints="NO" id="xbc-4M-9i0">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="06i-kK-A4Q">
+                                <rect key="frame" x="37" y="441" width="35" height="30"/>
+                                <state key="normal" image="ad_icon.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="openDianRuWall" destination="vXZ-lx-hvc" eventType="touchUpInside" id="aDM-ba-tby"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -31,6 +40,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="ad_icon.png" width="35" height="30"/>
         <image name="weather_bg.png" width="476" height="800"/>
     </resources>
 </document>

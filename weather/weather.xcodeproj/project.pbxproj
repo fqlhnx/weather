@@ -16,6 +16,19 @@
 		F6FFBA611A18B66F00085F5E /* weatherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FFBA601A18B66F00085F5E /* weatherTests.m */; };
 		F6FFBA6E1A18B74B00085F5E /* WethrView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FFBA6D1A18B74A00085F5E /* WethrView.m */; };
 		F6FFBA7A1A18B93C00085F5E /* weather_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6FFBA791A18B93C00085F5E /* weather_bg@2x.png */; };
+		F6FFBA7C1A18C15E00085F5E /* ad_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6FFBA7B1A18C15E00085F5E /* ad_icon@2x.png */; };
+		F6FFBA851A18C74200085F5E /* label_zip.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F6FFBA811A18C74200085F5E /* label_zip.a */; };
+		F6FFBA861A18C74200085F5E /* libTalkingDataSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F6FFBA821A18C74200085F5E /* libTalkingDataSDK.a */; };
+		F6FFBA881A18CE5300085F5E /* libz.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F6FFBA871A18CE5300085F5E /* libz.1.dylib */; };
+		F6FFBA8A1A18CE6700085F5E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6FFBA891A18CE6700085F5E /* QuartzCore.framework */; };
+		F6FFBA8C1A18CE6F00085F5E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6FFBA8B1A18CE6F00085F5E /* CoreLocation.framework */; };
+		F6FFBA8E1A18CE7700085F5E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6FFBA8D1A18CE7700085F5E /* Security.framework */; };
+		F6FFBA901A18CE7D00085F5E /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6FFBA8F1A18CE7D00085F5E /* CoreTelephony.framework */; };
+		F6FFBA921A18CE9500085F5E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6FFBA911A18CE9500085F5E /* MapKit.framework */; };
+		F6FFBA941A18CE9F00085F5E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6FFBA931A18CE9F00085F5E /* SystemConfiguration.framework */; };
+		F6FFBA961A18CEA600085F5E /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6FFBA951A18CEA600085F5E /* MediaPlayer.framework */; };
+		F6FFBA981A18CEAC00085F5E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6FFBA971A18CEAC00085F5E /* CoreGraphics.framework */; };
+		F6FFBA9A1A18CEB700085F5E /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6FFBA991A18CEB700085F5E /* AdSupport.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +58,23 @@
 		F6FFBA6C1A18B74A00085F5E /* WethrView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WethrView.h; sourceTree = "<group>"; };
 		F6FFBA6D1A18B74A00085F5E /* WethrView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WethrView.m; sourceTree = "<group>"; };
 		F6FFBA791A18B93C00085F5E /* weather_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "weather_bg@2x.png"; sourceTree = "<group>"; };
+		F6FFBA7B1A18C15E00085F5E /* ad_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ad_icon@2x.png"; sourceTree = "<group>"; };
+		F6FFBA7F1A18C74200085F5E /* label_set.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = label_set.h; sourceTree = "<group>"; };
+		F6FFBA801A18C74200085F5E /* label_time.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = label_time.h; sourceTree = "<group>"; };
+		F6FFBA811A18C74200085F5E /* label_zip.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = label_zip.a; sourceTree = "<group>"; };
+		F6FFBA821A18C74200085F5E /* libTalkingDataSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTalkingDataSDK.a; sourceTree = "<group>"; };
+		F6FFBA831A18C74200085F5E /* TalkingDataAdAntiFraud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TalkingDataAdAntiFraud.h; sourceTree = "<group>"; };
+		F6FFBA841A18C74200085F5E /* TalkingDataSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TalkingDataSDK.h; sourceTree = "<group>"; };
+		F6FFBA871A18CE5300085F5E /* libz.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.dylib; path = usr/lib/libz.1.dylib; sourceTree = SDKROOT; };
+		F6FFBA891A18CE6700085F5E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F6FFBA8B1A18CE6F00085F5E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		F6FFBA8D1A18CE7700085F5E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		F6FFBA8F1A18CE7D00085F5E /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		F6FFBA911A18CE9500085F5E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		F6FFBA931A18CE9F00085F5E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F6FFBA951A18CEA600085F5E /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		F6FFBA971A18CEAC00085F5E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F6FFBA991A18CEB700085F5E /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +82,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6FFBA9A1A18CEB700085F5E /* AdSupport.framework in Frameworks */,
+				F6FFBA981A18CEAC00085F5E /* CoreGraphics.framework in Frameworks */,
+				F6FFBA961A18CEA600085F5E /* MediaPlayer.framework in Frameworks */,
+				F6FFBA941A18CE9F00085F5E /* SystemConfiguration.framework in Frameworks */,
+				F6FFBA921A18CE9500085F5E /* MapKit.framework in Frameworks */,
+				F6FFBA901A18CE7D00085F5E /* CoreTelephony.framework in Frameworks */,
+				F6FFBA8E1A18CE7700085F5E /* Security.framework in Frameworks */,
+				F6FFBA8C1A18CE6F00085F5E /* CoreLocation.framework in Frameworks */,
+				F6FFBA8A1A18CE6700085F5E /* QuartzCore.framework in Frameworks */,
+				F6FFBA881A18CE5300085F5E /* libz.1.dylib in Frameworks */,
+				F6FFBA851A18C74200085F5E /* label_zip.a in Frameworks */,
+				F6FFBA861A18C74200085F5E /* libTalkingDataSDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +110,16 @@
 		F6FFBA381A18B66F00085F5E = {
 			isa = PBXGroup;
 			children = (
+				F6FFBA991A18CEB700085F5E /* AdSupport.framework */,
+				F6FFBA971A18CEAC00085F5E /* CoreGraphics.framework */,
+				F6FFBA951A18CEA600085F5E /* MediaPlayer.framework */,
+				F6FFBA931A18CE9F00085F5E /* SystemConfiguration.framework */,
+				F6FFBA911A18CE9500085F5E /* MapKit.framework */,
+				F6FFBA8F1A18CE7D00085F5E /* CoreTelephony.framework */,
+				F6FFBA8D1A18CE7700085F5E /* Security.framework */,
+				F6FFBA8B1A18CE6F00085F5E /* CoreLocation.framework */,
+				F6FFBA891A18CE6700085F5E /* QuartzCore.framework */,
+				F6FFBA871A18CE5300085F5E /* libz.1.dylib */,
 				F6FFBA431A18B66F00085F5E /* weather */,
 				F6FFBA5D1A18B66F00085F5E /* weatherTests */,
 				F6FFBA421A18B66F00085F5E /* Products */,
@@ -86,6 +138,7 @@
 		F6FFBA431A18B66F00085F5E /* weather */ = {
 			isa = PBXGroup;
 			children = (
+				F6FFBA7D1A18C71300085F5E /* thirdParts */,
 				F6FFBA6F1A18B83600085F5E /* modules */,
 				F6FFBA6A1A18B6FB00085F5E /* widget */,
 				F6FFBA481A18B66F00085F5E /* AppDelegate.h */,
@@ -180,6 +233,7 @@
 			isa = PBXGroup;
 			children = (
 				F6FFBA791A18B93C00085F5E /* weather_bg@2x.png */,
+				F6FFBA7B1A18C15E00085F5E /* ad_icon@2x.png */,
 			);
 			path = Res;
 			sourceTree = "<group>";
@@ -189,6 +243,27 @@
 			children = (
 			);
 			path = V;
+			sourceTree = "<group>";
+		};
+		F6FFBA7D1A18C71300085F5E /* thirdParts */ = {
+			isa = PBXGroup;
+			children = (
+				F6FFBA7E1A18C72800085F5E /* dianru */,
+			);
+			path = thirdParts;
+			sourceTree = "<group>";
+		};
+		F6FFBA7E1A18C72800085F5E /* dianru */ = {
+			isa = PBXGroup;
+			children = (
+				F6FFBA7F1A18C74200085F5E /* label_set.h */,
+				F6FFBA801A18C74200085F5E /* label_time.h */,
+				F6FFBA811A18C74200085F5E /* label_zip.a */,
+				F6FFBA821A18C74200085F5E /* libTalkingDataSDK.a */,
+				F6FFBA831A18C74200085F5E /* TalkingDataAdAntiFraud.h */,
+				F6FFBA841A18C74200085F5E /* TalkingDataSDK.h */,
+			);
+			path = dianru;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,6 +350,7 @@
 				F6FFBA551A18B66F00085F5E /* LaunchScreen.xib in Resources */,
 				F6FFBA7A1A18B93C00085F5E /* weather_bg@2x.png in Resources */,
 				F6FFBA521A18B66F00085F5E /* Images.xcassets in Resources */,
+				F6FFBA7C1A18C15E00085F5E /* ad_icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +496,12 @@
 				INFOPLIST_FILE = weather/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/weather/thirdParts/dianru",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LIBTOOLFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -431,6 +513,12 @@
 				INFOPLIST_FILE = weather/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/weather/thirdParts/dianru",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LIBTOOLFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

@@ -9,9 +9,14 @@
 #import "ViewController.h"
 #import "WethrView.h"
 
+#import "label_set.h"
+#import "TalkingDataSDK.h"
+
 @interface ViewController ()
 
 @property (nonatomic,strong)WethrView *weatherView;
+
+- (IBAction)openDianRuWall;
 
 @end
 
@@ -22,6 +27,9 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     [self setupWeatherView];
+    
+    [TalkingDataSDK init];
+    DR_INIT(@"0000071E1A0000B2", NO, nil);
 }
 
 - (void)didReceiveMemoryWarning {
@@ -38,6 +46,11 @@
     self.weatherView.showsTempType = YES;
     
     [self.view addSubview:self.weatherView];
+}
+
+- (void)openDianRuWall
+{
+    DR_SHOW(1, self.view, nil);
 }
 
 @end
