@@ -14,6 +14,8 @@
 		F6FFBA521A18B66F00085F5E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6FFBA511A18B66F00085F5E /* Images.xcassets */; };
 		F6FFBA551A18B66F00085F5E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6FFBA531A18B66F00085F5E /* LaunchScreen.xib */; };
 		F6FFBA611A18B66F00085F5E /* weatherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FFBA601A18B66F00085F5E /* weatherTests.m */; };
+		F6FFBA6E1A18B74B00085F5E /* WethrView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FFBA6D1A18B74A00085F5E /* WethrView.m */; };
+		F6FFBA7A1A18B93C00085F5E /* weather_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6FFBA791A18B93C00085F5E /* weather_bg@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		F6FFBA5A1A18B66F00085F5E /* weatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = weatherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6FFBA5F1A18B66F00085F5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F6FFBA601A18B66F00085F5E /* weatherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = weatherTests.m; sourceTree = "<group>"; };
+		F6FFBA6C1A18B74A00085F5E /* WethrView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WethrView.h; sourceTree = "<group>"; };
+		F6FFBA6D1A18B74A00085F5E /* WethrView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WethrView.m; sourceTree = "<group>"; };
+		F6FFBA791A18B93C00085F5E /* weather_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "weather_bg@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +86,8 @@
 		F6FFBA431A18B66F00085F5E /* weather */ = {
 			isa = PBXGroup;
 			children = (
+				F6FFBA6F1A18B83600085F5E /* modules */,
+				F6FFBA6A1A18B6FB00085F5E /* widget */,
 				F6FFBA481A18B66F00085F5E /* AppDelegate.h */,
 				F6FFBA491A18B66F00085F5E /* AppDelegate.m */,
 				F6FFBA4B1A18B66F00085F5E /* ViewController.h */,
@@ -117,6 +124,71 @@
 				F6FFBA5F1A18B66F00085F5E /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F6FFBA6A1A18B6FB00085F5E /* widget */ = {
+			isa = PBXGroup;
+			children = (
+				F6FFBA6B1A18B73F00085F5E /* wethrView */,
+			);
+			path = widget;
+			sourceTree = "<group>";
+		};
+		F6FFBA6B1A18B73F00085F5E /* wethrView */ = {
+			isa = PBXGroup;
+			children = (
+				F6FFBA6C1A18B74A00085F5E /* WethrView.h */,
+				F6FFBA6D1A18B74A00085F5E /* WethrView.m */,
+			);
+			path = wethrView;
+			sourceTree = "<group>";
+		};
+		F6FFBA6F1A18B83600085F5E /* modules */ = {
+			isa = PBXGroup;
+			children = (
+				F6FFBA701A18B85B00085F5E /* weather */,
+			);
+			path = modules;
+			sourceTree = "<group>";
+		};
+		F6FFBA701A18B85B00085F5E /* weather */ = {
+			isa = PBXGroup;
+			children = (
+				F6FFBA711A18B87F00085F5E /* C */,
+				F6FFBA721A18B87F00085F5E /* M */,
+				F6FFBA731A18B87F00085F5E /* Res */,
+				F6FFBA741A18B87F00085F5E /* V */,
+			);
+			path = weather;
+			sourceTree = "<group>";
+		};
+		F6FFBA711A18B87F00085F5E /* C */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		F6FFBA721A18B87F00085F5E /* M */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		F6FFBA731A18B87F00085F5E /* Res */ = {
+			isa = PBXGroup;
+			children = (
+				F6FFBA791A18B93C00085F5E /* weather_bg@2x.png */,
+			);
+			path = Res;
+			sourceTree = "<group>";
+		};
+		F6FFBA741A18B87F00085F5E /* V */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = V;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,6 +273,7 @@
 			files = (
 				F6FFBA501A18B66F00085F5E /* Main.storyboard in Resources */,
 				F6FFBA551A18B66F00085F5E /* LaunchScreen.xib in Resources */,
+				F6FFBA7A1A18B93C00085F5E /* weather_bg@2x.png in Resources */,
 				F6FFBA521A18B66F00085F5E /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -222,6 +295,7 @@
 				F6FFBA4D1A18B66F00085F5E /* ViewController.m in Sources */,
 				F6FFBA4A1A18B66F00085F5E /* AppDelegate.m in Sources */,
 				F6FFBA471A18B66F00085F5E /* main.m in Sources */,
+				F6FFBA6E1A18B74B00085F5E /* WethrView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +418,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = weather/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -354,6 +429,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = weather/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
